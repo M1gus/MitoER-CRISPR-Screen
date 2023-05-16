@@ -24,4 +24,3 @@ This folder contains interactive plots of the results from the CRISPR-Cas9 scree
 - Link: [Upregulators of MERCS](upregulators.html)
 - Link: [Downregulators of MERCS](downregulators.html)
 
-
