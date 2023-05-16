@@ -1,0 +1,24 @@
+# Repository for our work titled "Genome-Wide CRISPR/Cas9 Screen shows that inhibiting GET4 is neuroprotective and increases mitochondrial-endoplasmic reticulum contact sites "
+
+Authors: Emma L Wilson, Yizhou Yu, Nuno Santos Leal, Nikolaos Patikas, Sarah Field, Jordan L Morris, Yusuf Adia ,Will Plumbly, Suvagata R Chowdhury, Vincent Paupe, Phillip R Antrobus, Georgia E Lindop, Samantha H. Y. Loh, Julien Prudent, L. Miguel Martins, Emmanouil Metzakopian
+
+
+## Abstract  
+
+Organelles form contacts between each other allowing for transfer of molecules and signals. Mitochondria-ER Contact sites (MERCS) are lengths of the Mitochondria and ER membrane which come together but do not fuse. They have been implicated in many diseases, including neurodegenerative, metabolic, and cardiac disease. MERCS have been highly researched, however, a lot is still left to explore. To uncover novel regulators of MERCS we conducted a genome-wide, flow cytometry-based screen using an engineered MERCs reporter cell line. We found 410 genes whose downregulation promotes MERCS and 230 genes whose downregulation decreases MERCS. From these, 29 genes were selected from each population for arrayed screening. 14/29 validated from the higher population and 7/29 from the low population. GET4 and BAG6 were highlighted as the top 2 genes that upon suppression increase MERCS from both the pooled and arrayed screen, and were subjected to further investigation. Loss of GET4 or BAG6  increased mVenus puncta, Proximity Ligation Assay (PLA) puncta and increased the percentage of ER in contact with mitochondria. In addition, GET4 and BAG6 were observed to interact with known MERCS proteins, inositol 1,4,5-trisphosphate receptors (IP3R) and Glucose-regulated protein 75 (GRP75). In addition, we found that loss of GET4 increased Calcium concentration [Ca2+] in the mitochondria and mitochondrial respiration. Finally, we show that loss of GET4 rescues motor ability, neurodegeneration and improves lifespan in a Drosophila model of Alzheimer's Disease (Aβ42Arc). Together, these results suggest that GET4 is involved in decreasing MERCS and that its loss is neuroprotective. 
+
+
+
+## Index of analyses
+
+### Figure 1 - Functional characterisation of an ER-Mito reporter cell line 
+
+This folder contains supplementary data.
+
+- Link: [Abeta proteomics](https://github.com/M1gus/AD-FA/tree/main/Figure_1_Abeta_proteomics)
+
+### Figure 2 - CRISPR-Cas9 screening identified key genes involved with protein integration into the ER membrane.
+
+This folder contains the processed proteomics data and the scripts for the subsequent analyses.
+
+- Link: [Abeta;Nmdmc sleep](https://github.com/M1gus/AD-FA/tree/main/)
