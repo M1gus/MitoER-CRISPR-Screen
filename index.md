@@ -15,10 +15,13 @@ Organelles form contacts between each other allowing for transfer of molecules a
 
 This folder contains supplementary data.
 
-- Link: [Abeta proteomics](https://github.com/M1gus/AD-FA/tree/main/Figure_1_Abeta_proteomics)
+- Link: [Supplementary data](https://github.com/M1gus/MitoER-CRISPR-Screen/tree/main/Suplementary%20Tables)
 
 ### Figure 2 - CRISPR-Cas9 screening identified key genes involved with protein integration into the ER membrane.
 
-This folder contains the processed proteomics data and the scripts for the subsequent analyses.
+This folder contains interactive plots of the results from the CRISPR-Cas9 screen
 
-- Link: [Abeta;Nmdmc sleep](https://github.com/M1gus/AD-FA/tree/main/)
+- Link: [Upregulators of MERCS](https://github.com/M1gus/MitoER-CRISPR-Screen/blob/main/Suplementary%20Tables/upregulators.html)
+- Link: [Downregulators of MERCS](https://github.com/M1gus/MitoER-CRISPR-Screen/blob/main/Suplementary%20Tables/upregulators.html)
+
+
