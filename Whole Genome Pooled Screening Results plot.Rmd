@@ -1,0 +1,82 @@
+---
+title: "Interactive plot for the whole genome screen for MERCS"
+output: html_notebook
+---
+
+```{r}
+library(ggplot2)
+library(plotly)
+```
+
+Upregulators
+
+```{r}
+
+dt = read.csv("Suplementary Tables/Supplementary Table 2_Whole Genome Pooled Screening Results.csv", sep = " ")
+dt$pos_sig = ifelse(dt$pos.fdr..l. < 0.05, "Significant","Non-significant")
+
+ggplot(data = dt, aes(x = pos.rank..m., y = -pos.score..j., color = pos_sig)) +
+  geom_point() + theme_classic() + 
+  scale_color_manual(values=c("#939598","#E01E27" ))+
+  theme(axis.text.x=element_blank(),
+        axis.ticks.x=element_blank()) +
+  xlab("RRA rank") + ylab("RRA enrichment score")
+ggsave("upregulators.pdf", width = 8, height = 5)
+
+p = plot_ly(data = dt, x = dt$pos.rank..m., y = -dt$pos.score..j., 
+            color = dt$pos_sig,
+            colors = c("#939598","#E01E27" ),
+            type = 'scatter',
+        text = paste("Gene: ", dt$Genes..b.)) %>%
+  layout(xaxis = list(title = "RRA rank",
+                      zerolinecolor = '#ffff',
+                      zerolinewidth = 2,
+                      gridcolor = 'ffff',
+                      showticklabels = FALSE),
+         yaxis = list(title = 'RRA enrichment score',
+                      zerolinecolor = '#ffff',
+                      zerolinewidth = 2,
+                      gridcolor = 'ffff'),
+         plot_bgcolor='white')
+p
+
+htmlwidgets::saveWidget(as_widget(p), "upregulators.html")
+
+```
+
+Downregulators
+
+```{r}
+
+dt = read.csv("Suplementary Tables/Supplementary Table 2_Whole Genome Pooled Screening Results.csv", sep = " ")
+dt$neg_sig = ifelse(dt$neg.fdr..f. < 0.05, "Significant","Non-significant")
+
+ggplot(data = dt, aes(x = neg.rank..g., y = -neg.score..d., color = neg_sig)) +
+  geom_point() + theme_classic() + 
+  scale_color_manual(values=c("#939598","#E01E27" ))+
+  theme(axis.text.x=element_blank(),
+        axis.ticks.x=element_blank()) +
+  xlab("RRA rank") + ylab("RRA enrichment score")
+ggsave("downregulators.pdf", width = 8, height = 5)
+
+
+p = plot_ly(data = dt, x = dt$neg.rank..g., y = -dt$neg.score..d., 
+            color = dt$neg_sig,
+            colors = c("#939598","#E01E27" ),
+            type = 'scatter',
+        text = paste("Gene: ", dt$Genes..b.)) %>%
+  layout(xaxis = list(title = "RRA rank",
+                      zerolinecolor = '#ffff',
+                      zerolinewidth = 2,
+                      gridcolor = 'ffff',
+                      showticklabels = FALSE),
+         yaxis = list(title = 'RRA enrichment score',
+                      zerolinecolor = '#ffff',
+                      zerolinewidth = 2,
+                      gridcolor = 'ffff'),
+         plot_bgcolor='white')
+p
+
+htmlwidgets::saveWidget(as_widget(p), "downregulators.html")
+
+```

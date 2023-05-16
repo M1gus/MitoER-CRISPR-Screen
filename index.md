@@ -22,6 +22,6 @@ This folder contains supplementary data.
 This folder contains interactive plots of the results from the CRISPR-Cas9 screen
 
 - Link: [Upregulators of MERCS](https://github.com/M1gus/MitoER-CRISPR-Screen/blob/main/upregulators.html)
-- Link: [Downregulators of MERCS](https://github.com/M1gus/MitoER-CRISPR-Screen/blob/main/downregulators.html)
+- Link: [Downregulators of MERCS](m1gus.github.io/MitoER-CRISPR-Screen/downregulators.html)
 
 
