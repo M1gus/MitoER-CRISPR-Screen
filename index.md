@@ -27,7 +27,7 @@ This folder contains interactive plots of the results from the CRISPR-Cas9 scree
 ### List of all supplemetary tables
 
 - Link: [Supplementary data](https://github.com/M1gus/MitoER-CRISPR-Screen/tree/main/Suplementary%20Tables)
-- 
+
 ##### Supplementary Table 1: Whole genome pooled library
 A table showing the sequence and relevant information for all gRNAs used in the whole genome pooled screen. (a) Chromosome number of the giRNA targets, (b) gRNA start position in the genome, (c) gRNA end position in the genome, (d) DNA strand gRNA targeting, (e) gRNA DNA sequence forwards strand, (f) PAM sequence, (g) gRNA DNA sequence on reverse strand, (h) gene name/identifier, and (i) exon identifier.
 
