@@ -1,4 +1,4 @@
-## Repository for our work titled "Genome-Wide CRISPR/Cas9 Screen shows that inhibiting GET4 is neuroprotective and increases mitochondrial-endoplasmic reticulum contact sites"
+## Repository for our manuscript "Genome-Wide CRISPR/Cas9 Screen shows that inhibiting GET4 is neuroprotective and increases mitochondrial-endoplasmic reticulum contact sites"
 
 Authors: Emma L Wilson, Yizhou Yu, Nuno Santos Leal, James Woodward, Nikolaos Patikas, Sarah Field, Jordan L Morris, Yusuf Adia, Will Plumbly, Suvagata R Chowdhury, Vincent Paupe, Phillip R Antrobus, Georgia E Lindop, Samantha H. Y. Loh, Julien Prudent, L. Miguel Martins, Emmanouil Metzakopian
 
